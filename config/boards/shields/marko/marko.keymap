@@ -1,0 +1,27 @@
+/*
+ * Copyright (c) 2022 Filip Marko
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+/ {
+	keymap {
+		compatible = "zmk,keymap";
+		
+		default_layer {
+// ------------------------------------------------------------------------------------------
+// | 1 | 2 | 3 |
+// | a | b | c |
+// | x | y | z |
+// ------------------------------------------------------------------------------------------
+			bindings = <
+	&kp N1 &kp N2 &kp N3
+	&kp A  &kp B  &kp C
+	&kp X  &kp Y  &kp Z
+			>;
+		};
+	};
+};

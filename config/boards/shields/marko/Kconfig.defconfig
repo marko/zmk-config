@@ -1,0 +1,6 @@
+if SHIELD_MARKO
+
+config ZMK_KEYBOARD_NAME
+    default "Marko"
+
+endif

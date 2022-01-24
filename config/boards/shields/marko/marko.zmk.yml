@@ -1,0 +1,9 @@
+file_format: "1"
+id: marko
+name: Marko
+type: shield
+url: https://github.com/marko/zmk-config.git
+requires: 
+  - nice_nano_v2
+features:
+  - keys
